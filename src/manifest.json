@@ -1,0 +1,38 @@
+{
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "version": "1.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./icon/icon16.png",
+    "48": "./icon/icon48.png",
+    "128": "./icon/icon128.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_title": "__MSG_appDesc__",
+    "default_icon": {
+      "16": "./icon/icon16.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "./manifest.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://play.google.com/store/apps/details*"
+  ]
+}
