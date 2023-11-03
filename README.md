@@ -2,7 +2,7 @@
 
 KodePay Demo
 
-[中文文档](https://juejin.cn/editor/drafts/7296310713773097012)
+[中文文档](https://juejin.cn/spost/7296837697411645491)
 
 
 ##  环境
